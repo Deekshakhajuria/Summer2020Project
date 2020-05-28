@@ -47,6 +47,10 @@ public class EnterpriseDirectory {
             enterprise= new CDCEnterprise(name);
             enterpriseList.add(enterprise);
         }
+        else if(type==Enterprise.EnterpriseType.NIDC){
+            enterprise= new CDCEnterprise(name);
+            enterpriseList.add(enterprise);
+        }
         return enterprise;
     }
 }
