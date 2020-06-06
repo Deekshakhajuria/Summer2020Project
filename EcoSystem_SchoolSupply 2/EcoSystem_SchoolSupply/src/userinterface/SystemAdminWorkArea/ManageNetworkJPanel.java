@@ -60,6 +60,7 @@ public class ManageNetworkJPanel extends javax.swing.JPanel {
         nameJTextField = new javax.swing.JTextField();
         backJButton = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(255, 255, 255));
         setMaximumSize(new java.awt.Dimension(1620, 900));
         setMinimumSize(new java.awt.Dimension(1620, 900));
         setPreferredSize(new java.awt.Dimension(1620, 900));
